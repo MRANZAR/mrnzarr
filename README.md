@@ -1,0 +1,1 @@
+if((Get-FileHash -Path actions-runner-win-arm64-2.319.1.zip -Algorithm SHA256).Hash.ToUpper() -ne '3d25e7ddbad0104a5db94cf13bd1ebd06c4e991999dd84fac007b31851421e90'.ToUpper()){ throw 'Computed checksum did not match' }
